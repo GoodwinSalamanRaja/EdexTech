@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg");
+    background-size: 111px 111px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}  */
+.div1{
+    display: flex;
+    background-color: white;
+    width: 1111px;
+    height: 66px;
+    align-items: center;
+    }
+.anchor{
+    color: green;
+    text-decoration: none;
+} 
+.h1{
+    color: red;
+    text-transform: capitalize;
+}
+#tech{
+    color: blue;
+}
+.apply{
+    color: white;
+    font-size: 15px;
+    text-transform:capitalize ;
+    background-color: red;
+    width: 99px;
+    height: 33px;
+    position: absolute;
+    right: 169px;
+    top: 16px;
+}
+.chat{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    font-size: 15px;
+    text-transform:capitalize ;
+    width: 133px;
+    height: 33px;
+    position: absolute;
+    right: 1px;
+    top: 16px;
+}
+.div2{
+    display: flex;
+    width: 100%;
+    height: 33px;
+    background-color: rgb(243, 243, 137);
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.div3{
+    display: flex;
+}
+.content{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+    margin-left: 69px;
+    font-size: 15px;
+    line-height: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+}
+.img{
+    margin-top: 55px;
+    margin-right: 65px;
+    border-radius: 11px;
+}
+.div4{
+    display: grid;
+    grid-template-columns: repeat(3,215px);
+    grid-auto-rows: 39px;
+    justify-content: center;
+}
+.download{
+    text-transform: uppercase;
+    color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.register{
+    text-transform: uppercase;
+    background-color: rgb(223, 36, 36);
+    color: white;
+    border: 1px solid  rgb(223, 36, 36);
+    border-radius: 6px;
+    margin-left: 11px;
+}
+.maincontainer{
+    display: grid;
+    grid-template: repeat(2,225px)/repeat(3,380px);
+    line-height: 25px;
+    margin-left: 79px;
+    gap: 31px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.div5{
+    display: grid;
+    grid-template: repeat(1,35px)/repeat(2,69px);
+    place-content: center;
+    gap: 99px; 
+}
+.div6{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.div7{
+    display: grid;
+    line-height: 44px;
+    margin-left: 190px;
+}
+span::before{
+    content: "✅";
+    margin-left: 15px;
+}
+.div8{
+    display: flex;
+    justify-content: center;
+}
+.curriculum{
+    color: red;
+    border: 1px solid red;
+    width: 215px;
+    height: 33px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.div9{
+    display: grid;
+    grid-template: repeat(3,55px)/repeat(6,195px);
+    gap: 55px 22px;
+    margin-left: 45px;
+}
+.div9 > button{
+    display: flex;
+    width: 165px;
+    border-radius: 22px;
+    background-color: rgb(221, 220, 220);
+    border: 1px solid rgb(221, 220, 220);
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    font-size: 16px;
+}
+.div10{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    font-size: larger;
+}
+.div11{
+    width: 94%;
+}
+.div11 :hover{
+    opacity: 0.9;
+    background-color: rgb(216, 214, 214);
+}
+.footer{
+    display: flex;
+    height: 355px;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 19px;
+    justify-content: flex-start;
+    gap: 235px;
+} 
